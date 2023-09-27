@@ -9,6 +9,8 @@ gem 'rails', '~> 7.0.8'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 
+gem 'pg'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 
@@ -51,6 +53,7 @@ gem 'bootsnap', require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri mingw x64_mingw]
+  gem 'faker'
   gem 'rspec-rails', '~> 6.0.0'
 end
 
@@ -70,3 +73,5 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
 end
+
+gem 'devise', '~> 4.9'
