@@ -51,7 +51,7 @@
 
 ## 🚀 Live Demo <a name="built-with"></a>
 
-Coming soon!
+[Demo Link](https://budgetapp-mc2o.onrender.com/)
 
 ## Getting Started
 
