@@ -15,5 +15,5 @@ test:
   database: db/budget_app_test
 
 production:
-<<: *default
+  <<: *default
   url: <%= ENV['DATABASE_URL'] %>
