@@ -15,8 +15,5 @@ test:
   database: db/budget_app_test
 
 production:
-  <<: *default
-  database: budget_app
-  username: postgres
-  password: admin
-  host: localhost
+<<: *default
+  url: <%= ENV['DATABASE_URL'] %>
