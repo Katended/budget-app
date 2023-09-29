@@ -8,7 +8,7 @@ default: &default
 
 development:
   <<: *default
-  database: db/budget_app
+  url: <%= ENV['DATABASE_URL'] %>
 
 test:
   <<: *default
@@ -16,7 +16,4 @@ test:
 
 production:
   <<: *default
-  database: budget_app
-  username: postgres
-  password: admin
-  host: localhost
+  url: <%= ENV['DATABASE_URL'] %>

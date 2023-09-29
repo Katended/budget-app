@@ -51,7 +51,11 @@
 
 ## 🚀 Live Demo <a name="built-with"></a>
 
-Coming soon!
+[Demo Link](https://www.loom.com/share/2d37c9b9b1c54791adc64ee6470b4237?sid=29c64926-e043-41f5-83d7-efb82b52e296)
+
+## Deployment
+
+[Link](https://budgetapp-mc2o.onrender.com/)
 
 ## Getting Started
 
