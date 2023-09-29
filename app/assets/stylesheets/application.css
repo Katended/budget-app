@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('/assets/Proxima Nova Font.otf') format('opentype');
+  src: url('/assets/fonts/Proxima Nova Font.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -71,6 +71,11 @@ body {
 .form-category {
   padding: 1em;
   gap: 2em;
+}
+
+.mx-20 {
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
 }
 
 #purchase-form {
